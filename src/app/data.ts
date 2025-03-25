@@ -12,7 +12,7 @@ export const CHARACTERS = [
       { name: 'Tech Burst', description: 'Releases an energy burst that damages and slows foes.' },
       { name: 'Overdrive', description: 'Temporarily boosts attack speed and damage reduction.' }
     ],
-    image: 'assets/char1.jpg'
+    image: 'char3.jpg'
   },
   {
     id: '2',
@@ -27,7 +27,7 @@ export const CHARACTERS = [
       { name: 'Arcane Shield', description: 'Creates a protective barrier that absorbs damage.' },
       { name: 'Inferno', description: 'Channels intense heat to deal massive area-of-effect damage.' }
     ],
-    image: 'assets/char2.jpg'
+    image: 'char2.jpg'
   },
   {
     id: '3',
@@ -42,7 +42,7 @@ export const CHARACTERS = [
       { name: 'Defender’s Call', description: 'Boosts defensive stats of nearby allies.' },
       { name: 'Justice Charge', description: 'Rushes forward, knocking back enemies in his path.' }
     ],
-    image: 'assets/char3.jpg'
+    image: 'char1.jpg'
   },
 ];
 
