@@ -1,0 +1,38 @@
+/* Navbar Container */
+.navbar {
+  background: rgba(255, 255, 255, 0.1);
+  padding: 15px;
+  display: flex;
+  align-items: center; /* Align items vertically */
+  justify-content: center;
+  gap: 20px;
+  border-bottom: 2px solid #7a3b1e; /* Rich brown ink color */
+  position: relative;
+}
+
+/* Navbar Links */
+.navbar a {
+  font-size: 18px;
+  color: #7a3b1e; /* Old parchment ink color */
+  text-transform: uppercase;
+  transition: 0.3s;
+  font-family: "Cinzel", serif; /* Medieval-style font */
+}
+
+.navbar a:hover {
+  color: #d4af37; /* Golden hover effect */
+  text-shadow: 0 0 5px #d4af37;
+}
+
+/* Stylized Title (Above or Left of Navbar) */
+.nav-title {
+  font-size: 2.5rem;
+  font-weight: bold;
+  font-family: "Uncial Antiqua", serif; /* Old book style font */
+  color: #7a3b1e; /* Rich brown ink */
+
+  position: absolute;
+  left: 20px; /* Adjust to place on the left */
+  top: 50%;
+  transform: translateY(-50%);
+}

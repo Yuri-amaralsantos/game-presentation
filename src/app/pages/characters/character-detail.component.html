@@ -1,0 +1,29 @@
+<div class="character-detail">
+    <a [routerLink]="['/characters']" class="back-link">Back to Characters</a>
+    <div class="character-header">
+        <img [src]="character.image" alt="{{ character.name }}">
+        <h1>{{ character.name }}</h1>
+    </div>
+
+    <section class="background">
+        <h2>Background</h2>
+        <p>{{ character.background }}</p>
+    </section>
+
+    <section class="gameplay">
+        <h2>Gameplay</h2>
+        <p><strong>Role:</strong> {{ character.gameplay.role }}</p>
+        <p><strong>Difficulty:</strong> {{ character.gameplay.difficulty }}</p>
+    </section>
+
+    <section class="abilities">
+        <h2>Abilities</h2>
+        <ul>
+            <li *ngFor="let ability of character.abilities">
+                <strong>{{ ability.name }}:</strong> {{ ability.description }}
+            </li>
+        </ul>
+    </section>
+
+
+</div>

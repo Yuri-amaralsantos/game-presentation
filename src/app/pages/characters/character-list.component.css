@@ -1,0 +1,40 @@
+.character-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+  gap: 20px;
+  padding: 20px;
+}
+
+/* Character Cards */
+.character-card {
+  background: #f8f8f8;
+  padding: 15px;
+  border-radius: 10px;
+  text-align: center;
+  transition: 0.3s;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+}
+
+.character-card:hover {
+  transform: scale(1.05);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+/* Images */
+.character-card img {
+  width: 100%;
+  max-width: 150px;
+  border-radius: 8px;
+  margin-bottom: 10px;
+  transition: 0.3s;
+}
+
+.character-card:hover img {
+  transform: scale(1.1);
+}
+
+/* Character Name */
+.character-card h3 {
+  font-size: 18px;
+  color: #333;
+}

@@ -1,0 +1,38 @@
+.hero {
+  padding: 2rem;
+}
+
+.home-container {
+  text-align: center;
+  padding: 50px;
+}
+
+.home-title {
+  padding-left: 1rem;
+  font-size: 48px;
+  text-shadow: 0 0 20px #0ff;
+}
+
+.download-button {
+  margin-top: 20px;
+  font-size: 20px;
+}
+
+.news-section {
+  margin-top: 40px;
+  padding: 2rem;
+  background-color: #f9f9f9;
+}
+
+.news-item {
+  border-bottom: 1px solid #ccc;
+  margin-bottom: 20px;
+  padding-bottom: 20px;
+}
+
+.news-image {
+  width: 100%;
+  max-width: 400px;
+  display: block;
+  margin-bottom: 10px;
+}

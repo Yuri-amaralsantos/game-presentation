@@ -1,0 +1,57 @@
+.character-detail {
+  max-width: 900px;
+  margin: 40px auto;
+  font-family: "Georgia", serif;
+  line-height: 1.6;
+  background: #f8f8f8;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+/* Header with Image */
+.character-header {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  border-bottom: 2px solid #ccc;
+  padding-bottom: 20px;
+}
+
+.character-header img {
+  width: 180px;
+  border-radius: 10px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+}
+
+h1 {
+  font-size: 28px;
+  color: #222;
+}
+
+/* Sections */
+section {
+  margin-top: 20px;
+}
+
+h2 {
+  font-size: 22px;
+  border-bottom: 2px solid #aaa;
+  padding-bottom: 5px;
+  color: #333;
+}
+
+p {
+  font-size: 16px;
+  color: #444;
+}
+
+/* Abilities */
+.abilities ul {
+  list-style: disc;
+  padding-left: 20px;
+}
+
+.abilities li {
+  margin-bottom: 8px;
+}
