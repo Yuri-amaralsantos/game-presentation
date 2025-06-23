@@ -8,8 +8,7 @@
 
 /* Background and Text */
 body {
-  background: url("https://www.example.com/parchment-texture.jpg") center/cover
-    no-repeat;
+  background-color: #dbcfbf;
   color: #4b3a2d; /* Deep brown for an aged ink feel */
 }
 
@@ -18,7 +17,6 @@ h1,
 h2,
 h3 {
   color: #8b5a2b; /* Warm, rich brown */
-  text-shadow: 1px 1px 5px rgba(139, 90, 43, 0.3);
   font-family: "Lora", serif; /* Calligraphic book style */
   font-weight: bold;
 }

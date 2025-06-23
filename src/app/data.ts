@@ -2,45 +2,45 @@ export const CHARACTERS = [
   {
     id: '1',
     name: 'Vanguard',
-    background: 'Iron Vanguard is a battle-hardened warrior equipped with advanced armor. After enduring personal tragedy, he rose to become the stalwart protector of his city, melding cutting-edge technology with indomitable will.',
+    background: 'Iron Vanguard é um guerreiro endurecido pela batalha, equipado com uma armadura avançada. Após suportar uma tragédia pessoal, ele se tornou o protetor inflexível de sua cidade, fundindo tecnologia de ponta com uma vontade indomável.',
     gameplay: {
-      role: 'Tank/Fighter',
-      difficulty: 'Medium'
+      role: 'Tanque/Lutador',
+      difficulty: 'Média'
     },
     abilities: [
-      { name: 'Shield Slam', description: 'Deals damage and stuns enemies in a cone.' },
-      { name: 'Tech Burst', description: 'Releases an energy burst that damages and slows foes.' },
-      { name: 'Overdrive', description: 'Temporarily boosts attack speed and damage reduction.' }
+      { name: 'Shield Slam', description: 'Causa dano e atordoa inimigos em um cone.' },
+      { name: 'Tech Burst', description: 'Libera uma explosão de energia que causa dano e reduz a velocidade dos inimigos.' },
+      { name: 'Overdrive', description: 'Aumenta temporariamente a velocidade de ataque e a redução de dano.' }
     ],
     image: 'char3.jpg'
   },
   {
     id: '2',
     name: 'Mystic Ember',
-    background: 'Mystic Ember channels ancient elemental magic. Born into a secretive lineage of sorcerers, she combines wisdom with raw magical power to battle the encroaching darkness.',
+    background: 'Mystic Ember canaliza magia elemental ancestral. Nascida em uma linhagem secreta de feiticeiros, ela combina sabedoria com poder mágico bruto para combater a escuridão que se aproxima.',
     gameplay: {
-      role: 'Mage',
-      difficulty: 'High'
+      role: 'Mago',
+      difficulty: 'Alta'
     },
     abilities: [
-      { name: 'Flame Wave', description: 'Unleashes a wave of fire that scorches enemies in its path.' },
-      { name: 'Arcane Shield', description: 'Creates a protective barrier that absorbs damage.' },
-      { name: 'Inferno', description: 'Channels intense heat to deal massive area-of-effect damage.' }
+      { name: 'Flame Wave', description: 'Lança uma onda de fogo que queima os inimigos em seu caminho.' },
+      { name: 'Arcane Shield', description: 'Cria uma barreira protetora que absorve dano.' },
+      { name: 'Inferno', description: 'Canaliza calor intenso para causar dano massivo em área.' }
     ],
     image: 'char2.jpg'
   },
   {
     id: '3',
     name: 'Knight Valor',
-    background: 'A paragon of honor and chivalry, Knight Valor has sworn to defend the weak. With his enchanted armor and legendary sword, he stands as a bulwark against tyranny and chaos.',
+    background: 'Um exemplo de honra e cavalaria, Knight Valor jurou defender os fracos. Com sua armadura encantada e espada lendária, ele se ergue como um baluarte contra a tirania e o caos.',
     gameplay: {
-      role: 'Fighter',
-      difficulty: 'Low'
+      role: 'Lutador',
+      difficulty: 'Baixa'
     },
     abilities: [
-      { name: 'Holy Strike', description: 'Deals enhanced damage to evil forces and weakens their resolve.' },
-      { name: 'Defender’s Call', description: 'Boosts defensive stats of nearby allies.' },
-      { name: 'Justice Charge', description: 'Rushes forward, knocking back enemies in his path.' }
+      { name: 'Holy Strike', description: 'Causa dano aprimorado a forças do mal e enfraquece sua determinação.' },
+      { name: 'Defender’s Call', description: 'Aumenta os atributos defensivos dos aliados próximos.' },
+      { name: 'Justice Charge', description: 'Avança rapidamente, empurrando os inimigos em seu caminho.' }
     ],
     image: 'char1.jpg'
   },
@@ -49,15 +49,12 @@ export const CHARACTERS = [
 export const NEWS = [
   {
     id: '1',
-    title: 'Game Update 1.2 Released',
-    description: 'We are excited to announce that version 1.2 of the game has been released with new features, improved graphics, and balanced gameplay.',
-   
+    title: 'Atualização do Jogo 1.2 Lançada',
+    description: 'Estamos empolgados em anunciar que a versão 1.2 do jogo foi lançada com novos recursos, gráficos aprimorados e jogabilidade balanceada.',
   },
   {
     id: '2',
-    title: 'New Character Revealed: Dragon Slayer',
-    description: 'Get ready for a new addition to the game. Dragon Slayer is coming soon with a unique skill set and a mysterious backstory.',
-   
+    title: 'Novo Personagem Revelado: Dragon Slayer',
+    description: 'Prepare-se para uma nova adição ao jogo. Dragon Slayer está chegando em breve com um conjunto de habilidades único e uma história misteriosa.',
   }
 ];
-

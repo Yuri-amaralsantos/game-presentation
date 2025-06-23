@@ -1,0 +1,10 @@
+.news-detail {
+  max-width: 900px;
+  margin: 40px auto;
+  font-family: "Georgia", serif;
+  line-height: 1.6;
+  padding: 20px;
+  border-radius: 10px;
+  background-color: white;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}

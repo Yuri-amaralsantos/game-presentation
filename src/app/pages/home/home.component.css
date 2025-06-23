@@ -1,5 +1,8 @@
-.hero {
-  padding: 2rem;
+.container {
+  margin: 40px;
+  gap: 100px;
+  display: flex;
+  flex-direction: column;
 }
 
 .home-container {
@@ -14,14 +17,8 @@
 }
 
 .download-button {
-  margin-top: 20px;
+  margin-top: 0px;
   font-size: 20px;
-}
-
-.news-section {
-  margin-top: 40px;
-  padding: 2rem;
-  background-color: #f9f9f9;
 }
 
 .news-item {

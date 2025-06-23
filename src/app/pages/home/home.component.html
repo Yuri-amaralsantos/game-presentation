@@ -1,18 +1,20 @@
-<section class="hero">
-    <h1>Welcome to the Game</h1>
-    <h1 class="glowing-text">Game Characters</h1>
-    <p>Discover the world, characters, and download the game below.</p>
-    <a href="https://yourgame.com/download" target="_blank">Download Now</a>
-</section>
+<div class="container">
+    <section class="hero">
+        <h1>Bem vindo ao mundo de Eldoria</h1>
+        <h1 class="glowing-text">Game Characters</h1>
+        <p>Descubra o mundo, os personagens e baixe nosso jogo abaixo.</p>
+        <a href="https://yourgame.com/download" target="_blank">Download Now</a>
+    </section>
 
-<!-- News & Updates Section on Home -->
-<section class="news-section">
-    <h2>News & Updates</h2>
-    <div *ngFor="let news of newsList" class="news-item">
-        <h3>{{ news.title }}</h3>
+    <!-- News & Updates Section on Home -->
+    <section class="news-section">
+        <h2>News & Updates</h2>
+        <div *ngFor="let news of newsList" class="news-item">
+            <h3>{{ news.title }}</h3>
 
-        <p class="drop-cap">{{ news.description | slice:0:150 }}...</p>
-        <!-- Link to the detailed news page -->
-        <a [routerLink]="['/news', news.id]">Read More</a>
-    </div>
-</section>
+            <p class="drop-cap">{{ news.description | slice:0:150 }}...</p>
+            <!-- Link to the detailed news page -->
+            <a [routerLink]="['/news', news.id]">Read More</a>
+        </div>
+    </section>
+</div>
